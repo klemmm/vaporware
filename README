@@ -1,0 +1,16 @@
+Requirements:
+=============
+
+ - gcc 
+ - x86_64 architecture
+
+Compile: 
+========
+
+make STEAM_DLL="path/to/libCSteamworks.so"
+
+Usage
+=====
+
+LD_PRELOAD=./vaporware.so ./7DaysToDieServer.x86_64 <server arguments>
+
