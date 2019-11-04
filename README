@@ -7,10 +7,9 @@ Requirements:
 Compile: 
 ========
 
-make STEAM_DLL="path/to/libCSteamworks.so"
+make 
 
 Usage
 =====
 
-LD_PRELOAD=./vaporware.so ./7DaysToDieServer.x86_64 <server arguments>
-
+STEAM_DLL=/path/to/libsteam_api.so LD_PRELOAD=/path/to/vaporware.so /path/to/server <server arguments>
