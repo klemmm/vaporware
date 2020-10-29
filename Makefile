@@ -1,7 +1,7 @@
 CC=gcc
 EXTRA_WARNINGS=-Wall -Wextra -Wconversion -Wsign-compare -Wsign-conversion -W -Wshadow -Wunused-variable -Wunused-function -Wno-unused-parameter -Wunused -Wno-system-headers -Wwrite-strings 
 CFLAGS=-O0 -g -fPIC $(EXTRA_WARNINGS) 
-LDFLAGS=-shared
+LDFLAGS=-shared -ldl
 
 
 all: vaporware.so
